@@ -1,0 +1,16 @@
+<b!>T</b>his is a <i!>Rainmeter</i> skin which lets you view and edit basic .txt files! Use scroll to move through the file.
+<hide!> In editor mode you see the entire text document, syntax and all.</hide>
+Just <b!>click</b> on this text to edit it. Press <b!>enter</b> to stop editting
+
+Tip: Use <b!>Ctrl + Enter</b> to add a new line ;)
+
+You can use <b!>bold</b>, <i!>italic</i>, <o!>oblique</o>, <u!>underline</u>, <s!>strike</s>, <font=Arial!>fonts</font=Arial>, <size=11!>sizes</size=11> and much more!
+<hide!>This text is hidden during viewing and is only displayed during editting. This allows you to recieve extra information about the note when you edit it.</hide>
+ThisSentenceRefusesToContinueOnTheNextLineForSomeReason...
+
+<b!>Peculiarities</b>
+- Using double quotes breaks the text in Edit mode. 'Single quotes are fine.''
+- Syntax appears to only work on one 'line' of text (meaning, adding a new 'physical' line will break syntax. Clipstring-created lines do not share this problem)
+- If the same syntax is used more than once on a line all the text between the beginning of the first syntax and the ending of the last recieves that formatting.
+- Using Clipstring any word, phrase, url, or whatever that is longer than the width of a line of text as displayed in this skin will not be continued on the next line.
+- InputText does not support syntax (because it is a measure not a string meter)
